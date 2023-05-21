@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 130.658 s <<< FAILURE! - in runner.TestRunner
+User creates an account with all fields(Registration functionality)  Time elapsed: 24.14 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 15.000
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac5e357255c71a447584e9806d000608, clickElement {id=8772ba3b-98d2-4c18-935b-ba756b48cb3b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\shaw1\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58434}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58434/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ac5e357255c71a447584e9806d000608)] -> xpath: //input[@value='Continue']]
+Session ID: ac5e357255c71a447584e9806d000608
+
